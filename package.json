@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fastify": "^2.13.0",
+    "fastify-autoload": "^1.2.2",
+    "fastify-cors": "^3.0.3",
+    "fastify-plugin": "^1.6.1",
+    "mssql": "^6.2.0"
+  }
+}
