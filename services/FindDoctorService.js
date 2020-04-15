@@ -39,6 +39,7 @@ class FindDoctorService {
       let getConn = await Connection.get().getConnection();
 
       let res = await getConn.input('userId',appointmentData.userid)
+      .input('loginuserid',appointmentData.loginuserid)
       .input('email',appointmentData.email)
       .input('firstName',appointmentData.firstname)
       .input('lastName',appointmentData.lastname)
